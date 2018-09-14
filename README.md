@@ -10,9 +10,10 @@ It may be important to note that any meaningful project based on Cloud AI probab
 * Your choice of a Python IDE, I recommend [Atom](https://atom.io/)
 
 
+
 ## Making the project work
 
-One of the hardest parts of programming applications is getting various services to work together. In general, it is best practice to refer to the provided [documentation](https://cloud.google.com/text-to-speech/docs/). Below are a few critical components and examples, I will continue to add as questions come up.
+One of the hardest parts of programming applications is getting various services to work together. In general, it is best practice to refer to the provided [documentation](https://cloud.google.com/text-to-speech/docs/). Below are a few critical components and examples. I will continue to add more descriptions as questions come up.
 
 ### Remember to set application credentials!
 
@@ -30,6 +31,7 @@ I've modified the original file to allow for easy calling of the API, this means
 import speech2text as st
 st.outputSpeech("This is how I say " + f, f + ".mp3")
 ```
+
 
 
 ## Deployment
