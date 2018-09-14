@@ -4,11 +4,7 @@ Artificial Intelligence (AI) and machine learning are some of the biggest buzz w
 
 It may be important to note that any meaningful project based on Cloud AI probably requires prior experience with Python or another coding language. That being said, don't be discouraged! We grade based off both effort and technilogical intensity.
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project for class.
-
-### Prerequisites
+## Prerequisites
 
 * [Python 2.7](https://www.python.org/download/releases/2.7/)
 * Your choice of a Python IDE, I recommend [Atom](https://atom.io/)
