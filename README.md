@@ -1,6 +1,6 @@
 # Google Cloud AI: TEXT-TO-SPEECH
 
-Artificial Intelligence (AI) and machine learning are some of the biggest buzz words in 21st century computing. Google's Cloud AI provides modern machine learning services, with pre-trained models and a service to generate your own tailored models. In this project, I integrate the [CLOUD TEXT-TO-SPEECH](https://cloud.google.com/text-to-speech/) and present a trivial sample project. The idea is for you to utilize the abstracted code and make something cool!
+Artificial Intelligence (AI) and machine learning are some of the biggest buzz words in 21st century computing. Google's Cloud AI provides modern machine learning services, with pre-trained models and a service to generate your own tailored models. In this project, I integrate [CLOUD TEXT-TO-SPEECH](https://cloud.google.com/text-to-speech/) and present a trivial sample project. The idea is for you to utilize the abstracted code and make something cool!
 
 It may be important to note that any meaningful project based on Cloud AI probably requires prior experience with Python or another coding language. That being said, don't be discouraged! We grade based off both effort and technilogical intensity.
 
@@ -8,12 +8,19 @@ It may be important to note that any meaningful project based on Cloud AI probab
 
 * [Python 2.7](https://www.python.org/download/releases/2.7/)
 * Your choice of a Python IDE, I recommend [Atom](https://atom.io/)
+* A [Google Cloud Account](https://console.cloud.google.com)
+
+## Setup in 3 Steps
+
+1. [Enable](https://console.cloud.google.com/flows/enableapi?apiid=texttospeech.googleapis.com) the Cloud Text-to-Speech API on your [console](https://console.cloud.google.com), making sure that [billing](https://cloud.google.com/billing/docs/how-to/modify-project) is enabled
+2. Set up [authentication](https://console.cloud.google.com/apis/credentials/serviceaccountkey)
+3. Intall and initialize the [Cloud SDK](https://cloud.google.com/sdk/docs/)
 
 
 
 ## Making the project work
 
-One of the hardest parts of programming applications is getting various services to work together. In general, it is best practice to refer to the provided [documentation](https://cloud.google.com/text-to-speech/docs/). Below are a few critical components and examples. I will continue to add more descriptions as questions come up.
+One of the hardest parts of programming applications is getting various services to work together. In general, it is best practice to refer to the provided [documentation](https://cloud.google.com/text-to-speech/docs/). Below are a few critical components and examples. I will continue to add to this section as questions come up.
 
 ### Remember to set application credentials!
 
@@ -41,4 +48,5 @@ To submit your completed project for a grade, please upload all code and output 
 ## Authors
 
 * **Jay Syz** - *Initial work* - [ssyz](https://github.com/ssyz)
+* **Quickstart Guide** - *Reference* - [Google](https://cloud.google.com/text-to-speech/docs/quickstart-client-libraries#client-libraries-install-python)
 
