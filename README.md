@@ -2,7 +2,9 @@
 
 Artificial Intelligence (AI) and machine learning are some of the biggest buzz words in 21st century computing. Google's Cloud AI provides modern machine learning services, with pre-trained models and a service to generate your own tailored models. In this project, I integrate [CLOUD TEXT-TO-SPEECH](https://cloud.google.com/text-to-speech/) and present a trivial sample project. The idea is for you to utilize the abstracted code and make something cool!
 
-It may be important to note that any meaningful project based on Cloud AI probably requires prior experience with Python or another coding language. That being said, don't be discouraged! We grade based off both effort and technilogical intensity.
+It may be important to note that any meaningful project based on Cloud AI probably requires prior experience with Python or another coding language.
+
+See all DIY Resources [here](https://emory.instructure.com/courses/48119/modules#module_80184).
 
 ## Prerequisites
 
