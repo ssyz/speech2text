@@ -1,6 +1,6 @@
 # Google Cloud AI: TEXT-TO-SPEECH
 
-Artificial Intelligence (AI) and machine learning are some of the biggest buzz words in 21st century computing. Google's Cloud AI provides modern machine learning services, with pre-trained models and a service to generate your own tailored models. In this project, I integrate [CLOUD TEXT-TO-SPEECH](https://cloud.google.com/text-to-speech/) and present a trivial sample project. The idea is for you to utilize the abstracted code and make something cool!
+Artificial Intelligence (AI) and machine learning are some of the biggest buzz words in 21st century computing. Google's Cloud AI provides modern machine learning services, with pre-trained models and a service to generate your own tailored models. In this project, I integrate [CLOUD TEXT-TO-SPEECH](https://cloud.google.com/text-to-speech/) and present a trivial sample project. The idea is for you to utilize the abstracted code and make something cool! Definitely let me know if there is any additional functionality you would find useful.
 
 It may be important to note that any meaningful project based on Cloud AI probably requires prior experience with Python or another coding language.
 
@@ -38,7 +38,9 @@ I've modified the original file to allow for easy calling of the API, this means
 
 ```
 import speech2text as st
-st.outputSpeech("This is how I say " + f, f + ".mp3")
+text = "Welcome to Appcology! I can't wait to see what you all create."
+fileName = "hi.mp3"
+st.outputSpeech(text, fileName)
 ```
 
 
