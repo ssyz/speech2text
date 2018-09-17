@@ -43,6 +43,17 @@ def outputSpeech(s, n):
         print('Audio content written to file "' + n + '"')
 
 """
+This function takes two input values:
+1. list of strings to be translated (s)
+2. output file name (n), succeeding outputs will be numbered
+"""
+def outputMultiple(l, n):
+    count = 0
+    for item in l:
+        outputSpeech(item, n + str(count) + ".mp3")
+        count = count + 1
+
+"""
 Main function, determines the functionality when this file is run as a script
 """
 if __name__ == '__main__':
